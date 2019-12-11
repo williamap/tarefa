@@ -1,0 +1,30 @@
+main{
+    padding: 0px 30px;
+}
+#menu-galerias{
+    display: flex;
+    list-style-type: none;
+}
+
+#menu-galerias li{
+    padding-left: 20px;
+    cursor: pointer;
+}
+
+#fotos{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+.foto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.foto img{
+    width: 100px;
+    align-content: center;
+}
